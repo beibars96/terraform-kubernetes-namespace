@@ -15,3 +15,9 @@ variable annotations {
     description = "a map of annotations to add to the namespaces"
     default = {} 
 }
+
+variable pod_limit {
+    description = "the max number of pods that can be created in the namespace"
+    default = 100
+  
+}
